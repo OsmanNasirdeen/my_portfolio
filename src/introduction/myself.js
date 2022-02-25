@@ -10,7 +10,9 @@ return(
     
     
     <div id="self_container">
-        <img src={mylogo} alt=""></img>
+        <div id="image">
+          <img src={mylogo} alt=""></img>
+          </div>
         <div id="introText">
         Hi, i am Osman Nasirdeen, a passionate front-end software developer.
           Hi, i am Osman Nasirdeen,
