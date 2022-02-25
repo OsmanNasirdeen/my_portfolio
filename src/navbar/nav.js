@@ -30,10 +30,10 @@ const Navbar = () =>{
                 <span id="bar"></span>
             </a>
             <ul ref={myRef} > 
-            <li id="about"><a href="">ABOUT</a></li>
-            <li id="projects"><a href="">PROJECTS</a></li>
-            <li id="skills"><a href="">SKILLS</a></li>
-            <li id="contact"><a href="">CONTACT</a></li>
+            <li id="about"><a href="#">ABOUT</a></li>
+            <li id="projects"><a href="#">PROJECTS</a></li>
+            <li id="skills"><a href="#">SKILLS</a></li>
+            <li id="contact"><a href="#">CONTACT</a></li>
             </ul>
         </nav>
 
