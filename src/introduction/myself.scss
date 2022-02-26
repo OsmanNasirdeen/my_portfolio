@@ -18,10 +18,21 @@ body {
 
   img {
     float: left;
+    @media all and (max-width: 480px) {
+      width: 50%;
+      height: 50%;
+      overflow: hidden;
+    }
   }
 
   #introText {
     font-size: $font_size * 1.1;
     font-style: oblique;
+    @media all and (max-width: 480px) {
+      font-size: $font_size;
+      font-style: italic;
+      font-weight: bolder;
+      overflow: hidden;
+    }
   }
 }
