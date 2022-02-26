@@ -10,11 +10,11 @@ return(
     
     
     <div id="self_container">
-        <div id="image">
+      
           <img src={mylogo} alt=""></img>
-          </div>
-        <div id="introText">
-        Hi, i am Osman Nasirdeen, a passionate front-end software developer.
+        
+        <p id="introText">
+          Hi, i am Osman Nasirdeen, a passionate front-end software developer.
           Hi, i am Osman Nasirdeen,
           passionate front-end software developer.
           Hi, i am Osman Nasirdeen,
@@ -22,7 +22,7 @@ return(
           Hi, i am Osman Nasirdeen,
           passionate front-end software developer.
           
-        </div>
+        </p>
     </div>
 
     </>
